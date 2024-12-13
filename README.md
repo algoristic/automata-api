@@ -236,4 +236,4 @@ Change the size and appearance of the output image.
 
 <sup>1</sup> Please note the default value of `2` for [[`scale`, `k`](#scale-k)]
 
-<sup>2</sup> Please note the abundance of the `#` charater for the hex values of `alive`, `a`, `dead` and `d` parameters.
+<sup>2</sup> Please note the absence of the `#` charater for the hex values of `alive`, `a`, `dead` and `d` parameters.
