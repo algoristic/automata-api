@@ -6,8 +6,6 @@
 
 # automata-api
 
-Available on https://algoristic.de/automata/.
-
 Create 2D images of [elementary cellular automata](https://en.wikipedia.org/wiki/Elementary_cellular_automaton) using a simple `GET`-based API.
 
 **Contents**
