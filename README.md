@@ -21,65 +21,65 @@ Create 2D images of [elementary cellular automata](https://en.wikipedia.org/wiki
 
 ## 🚀 Usage Examples
 
-Rule 30 for 256 cells in 256 generations:
+Rule **30** for **256 cells** in **256 generations**:
 
-> https://algoristic.de/automata/30/256
+> [https://algoristic.de/automata/**30**/**256**](https://algoristic.de/automata/30/256)
 
 ![Rule 30 for 256 cells in 256 generations](https://algoristic.de/automata/30/256)
 
 ---
 
-Rule 30 for 192 cells in 108 generations:
+Rule 30 for **192 cells** in **108 generations**:
 
-> https://algoristic.de/automata/30/192/108
+> [https://algoristic.de/automata/30/**192**/**108**](https://algoristic.de/automata/30/192/108)
 
 ![Rule 30 for 192 cells in 108 generations](https://algoristic.de/automata/30/192/108)
 
 ---
 
-Rule 30 for 192 cells in 108 generations and each cell scaled to occupy 10&times;10 pixels (resulting in a 1920&times;1080 image):
+Rule 30 for 192 cells in 108 generations and each cell **scaled to** occupy **10&times;10 pixels** (resulting in a 1920&times;1080 image):
 
-> https://algoristic.de/automata/30/192/108?k=10
+> [https://algoristic.de/automata/30/192/108?**k=10**](https://algoristic.de/automata/30/192/108?k=10)
 
 ![Rule 30 for 192 cells in 108 generations and each cell scaled to occupy 10×10 pixels](https://algoristic.de/automata/30/192/108?k=10)
 
 ---
 
-Rule 110 for 256 cells in 256 generations with an ever-changing random start configuration:
+Rule 110 for 256 cells in 256 generations with an ever-changing **random start** configuration:
 
-> https://algoristic.de/automata/110/256/256/random
+> [https://algoristic.de/automata/110/256/256/**random**](https://algoristic.de/automata/110/256/256/random)
 
 ![Rule 110 for 256 cells in 256 generations with an ever-changing random start configuration](https://algoristic.de/automata/110/256/256/random)
 
 ---
 
-Rule 30 for 256 cells in 256 generations with a fixed seeded start configuration:
+Rule 30 for 256 cells in 256 generations with a **fixed seeded start** configuration:
 
-> https://algoristic.de/automata/30/256/256/1337
+> [https://algoristic.de/automata/30/256/256/**1337**](https://algoristic.de/automata/30/256/256/1337)
 
 ![Rule 30 for 256 cells in 256 generations with a fixed seeded start configuration](https://algoristic.de/automata/30/256/256/1337)
 
 ---
 
-Rule 30 for 256 cells in 256 generations and a fixed file name for browser caching:
+Rule 30 for 256 cells in 256 generations and a **fixed file name** for browser caching:
 
-> https://algoristic.de/automata/30/256/rule_30.webp
+> [https://algoristic.de/automata/30/256/**rule_30.webp**](https://algoristic.de/automata/30/256/rule_30.webp)
 
 ![Rule 30 for 256 cells in 256 generations and a fixed file name for browser caching](https://algoristic.de/automata/30/256/rule_30.webp)
 
 ---
 
-Rule 30 for 256 cells in 256 generations with living cells in pink and dead cells in turquoise:
+Rule 30 for 256 cells in 256 generations with **living cells in pink** and **dead cells in turquoise**:
 
-> https://algoristic.de/automata/30/256?a=ff00ff&d=00ffff
+> [https://algoristic.de/automata/30/256?**a=ff00ff**&**d=00ffff**](https://algoristic.de/automata/30/256?a=ff00ff&d=00ffff)
 
 ![Rule 30 for 256 cells in 256 generations with living cells in pink and dead cells in turquoise](https://algoristic.de/automata/30/256?a=ff00ff&d=00ffff)
 
 ---
 
-Rule 30 for 256 cells in 256 generations with dead cells in black and a linear interpolation from red to blue for the living cells:
+Rule 30 for 256 cells in 256 generations with dead cells in black and a **linear interpolation from red to blue** for the living cells:
 
-> https://algoristic.de/automata/30/256?a=ff0000&ai=0000ff&d=000000
+> [https://algoristic.de/automata/30/256?**a=ff0000**&**ai=0000ff**&d=000000](https://algoristic.de/automata/30/256?a=ff0000&ai=0000ff&d=000000)
 
 ![Rule 30 for 256 cells in 256 generations with dead cells in black and a linear interpolation from red to blue for the living cells](https://algoristic.de/automata/30/256?a=ff0000&ai=0000ff&d=000000)
 
@@ -146,7 +146,7 @@ Define what automaton will be calculated.
 
 #### dimensions
 
-`dimensions` &rarr; Shortcut to set `size` and `generations` at once
+`dimensions` &rarr; Shortcut to set [`size`](#size) and [`generations`](#generationas) at once
 
 > _2 &le; `dimensions`_ \
 > and \
