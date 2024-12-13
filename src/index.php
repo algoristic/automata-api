@@ -16,6 +16,11 @@ try {
     $query_params = $_GET;
     $count = count($path_params);
 
+    if ($count === 1 && $path_params[1] === null) {
+        header('Location: https://github.com/algoristic/automata-api/blob/main/README.md', true);
+        exit();
+    }
+
     if ($count > 5) {
         throw new Exception('Path contains unrecognized parameters', 404);
     }
