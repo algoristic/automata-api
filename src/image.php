@@ -57,7 +57,11 @@ class Image
                     $color_a = $this->dead_color;
                     $color_b = $this->dead_interpolate_color;
                 }
-                $color = Color::lerp($color_a, $color_b, $t);
+                if ($color_a->equals($color_b)) {
+                    $color = $color_a;
+                } else {
+                    $color = Color::lerp($color_a, $color_b, $t);
+                }
                 $true_color = $color->to_image_color($image);
                 imagefilledrectangle($image, $x_1, $y_1, $x_2, $y_2, $true_color);
             }

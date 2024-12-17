@@ -22,6 +22,14 @@ class Color
         return $image_color;
     }
 
+    function equals(Color $other): bool
+    {
+        return
+            $this->r === $other->r &&
+            $this->g === $other->g &&
+            $this->b === $other->b;
+    }
+
     static function from_hex(string $hex_code): Color
     {
         $hex_value = ltrim($hex_code, '#');
